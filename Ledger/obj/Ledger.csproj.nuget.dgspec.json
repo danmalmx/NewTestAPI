@@ -1,31 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\source\\repos\\NewTestAPI\\Ledger\\Ledger.csproj": {}
+    "/Users/danmalmx/own-projects/Lexicon/NewTestAPI/Ledger/Ledger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\source\\repos\\NewTestAPI\\Ledger\\Ledger.csproj": {
+    "/Users/danmalmx/own-projects/Lexicon/NewTestAPI/Ledger/Ledger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\source\\repos\\NewTestAPI\\Ledger\\Ledger.csproj",
+        "projectUniqueName": "/Users/danmalmx/own-projects/Lexicon/NewTestAPI/Ledger/Ledger.csproj",
         "projectName": "Ledger",
-        "projectPath": "C:\\Users\\Daniel\\source\\repos\\NewTestAPI\\Ledger\\Ledger.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\source\\repos\\NewTestAPI\\Ledger\\obj\\",
+        "projectPath": "/Users/danmalmx/own-projects/Lexicon/NewTestAPI/Ledger/Ledger.csproj",
+        "packagesPath": "/Users/danmalmx/.nuget/packages/",
+        "outputPath": "/Users/danmalmx/own-projects/Lexicon/NewTestAPI/Ledger/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/danmalmx/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {

@@ -1,20 +1,13 @@
 version: '3'
 services: 
-  api: 
+  gateway.api: 
     build: ./Gateway/
     ports: 
       - 52973:80
     container_name: gateway_api
     depends_on:
-      - authentication_api
       - catalog_api
       - ledger_api
-  
-  api: 
-    build: ./Authentication/
-    ports: 
-      - 52972:80
-    container_name: authentication_api
 
   catalog_api: 
     build: ./Catalog/
@@ -27,3 +20,31 @@ services:
     ports: 
       - 52970:80
     container_name: ledger_api
+
+# version: '3.4'
+
+# services:
+#   gateway.api:
+#     image: gateway_api
+#     expose: 
+#       - "80"
+#     ports:
+#       - "52793:80"
+#     depends_on:
+#       - catalog.api
+#       - authentication.api
+#       - ledger.api
+
+#   catalog.api:
+#     image: catalog_api
+#     expose:
+#       - "80"
+#     ports:
+#       - "52971:80"
+  
+#   ledger.api:
+#     image: ledger_api
+#     expose:
+#       - "80"
+#     ports:
+#       - "52970:80"
