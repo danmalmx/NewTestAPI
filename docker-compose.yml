@@ -1,0 +1,29 @@
+version: '3'
+services: 
+  api: 
+    build: ./Gateway/
+    ports: 
+      - 52973:80
+    container_name: gateway_api
+    depends_on:
+      - authentication_api
+      - catalog_api
+      - ledger_api
+  
+  api: 
+    build: ./Authentication/
+    ports: 
+      - 52972:80
+    container_name: authentication_api
+
+  catalog_api: 
+    build: ./Catalog/
+    ports: 
+      - 52971:80
+    container_name: catalog_api
+
+  ledger_api:
+    build: ./Ledger/
+    ports: 
+      - 52970:80
+    container_name: ledger_api
